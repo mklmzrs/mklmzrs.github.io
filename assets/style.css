@@ -189,7 +189,9 @@ header h2 {
 #main_content {
     width: 100%;
     display: flex;
-        -webkit-font-smoothing: antialiased;
+    flex-wrap: wrap;
+        justify-content: center;
+    -webkit-font-smoothing: antialiased;
 }
 
 section img {
@@ -354,11 +356,16 @@ a {
     display: inline-block;
 }
 
-
-
 .dive-event {
-    max-width: 320px;
+    min-width: 280px;
+        max-width: 280px;
     text-align: center;
+    margin: 10px;
+    }
+    
+    .dive-event a {
+        text-decoration: none;
+        display: inline-block;
 }
 
 .thumbnail {
