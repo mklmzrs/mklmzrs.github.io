@@ -174,11 +174,6 @@ header h1 {
     }
 }
 
-header h1:before {
-    content: "./ ";
-    font-size: 24px
-}
-
 header h2 {
     font-size: 18px;
     font-weight: 300;
@@ -193,7 +188,8 @@ header h2 {
 
 #main_content {
     width: 100%;
-    -webkit-font-smoothing: antialiased
+    display: flex;
+        -webkit-font-smoothing: antialiased;
 }
 
 section img {
@@ -353,6 +349,23 @@ a {
     zoom: 1
 }
 
-#a-title {
-    text-decoration: none
+.a-title {
+    text-decoration: none;
+    display: inline-block;
+}
+
+
+
+.dive-event {
+    max-width: 320px;
+    text-align: center;
+}
+
+.thumbnail {
+    border-radius: 4px;
+    box-shadow: 0 0 2px 1px rgba(0, 140, 186, 0.5);
+}
+
+.thumbnail:hover {
+    box-shadow: 0 0 10px 10px rgba(0, 140, 186, 0.5);
 }
