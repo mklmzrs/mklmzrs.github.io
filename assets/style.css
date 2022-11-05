@@ -358,12 +358,15 @@ a {
 
 .dive-event {
     min-width: 280px;
-        max-width: 280px;
+    max-width: 280px;
     text-align: center;
     margin: 10px;
-    }
-    
-    .dive-event a {
+    display: flex;
+        flex-direction: column;
+        justify-content: end;
+}
+
+.dive-event a {
         text-decoration: none;
         display: inline-block;
 }
