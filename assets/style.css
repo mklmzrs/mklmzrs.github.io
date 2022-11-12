@@ -117,7 +117,7 @@
 body {
     margin: 0;
     padding: 0;
-    background: #151515 url("../images/bkg.png") 0 0;
+    background: #151515;
     color: #eaeaea;
     font-size: 16px;
     line-height: 1.5;
@@ -190,7 +190,7 @@ header h2 {
     width: 100%;
     display: flex;
     flex-wrap: wrap;
-        justify-content: center;
+    justify-content: flex-start;
     -webkit-font-smoothing: antialiased;
 }
 
@@ -324,7 +324,7 @@ hr {
     width: 16px;
     height: 16px;
     margin: 1px 8px 0 0;
-    float: left
+    float: left;
 }
 
 .btn-github .icon {
@@ -334,7 +334,7 @@ hr {
 
 a {
     color: #63c0f5;
-    text-shadow: 0 0 5px rgba(104, 182, 255, 0.5)
+    text-shadow: 0 0 5px rgba(104, 182, 255, 0.5);
 }
 
 .cf:before,
@@ -362,7 +362,7 @@ a {
     text-align: center;
     margin: 10px;
     display: flex;
-        flex-direction: column;
+    flex-direction: column;
         justify-content: end;
 }
 
@@ -378,4 +378,35 @@ a {
 
 .thumbnail:hover {
     box-shadow: 0 0 10px 10px rgba(0, 140, 186, 0.5);
+}
+
+.dive-video {
+    text-align: center;
+    margin: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+    color: #63c0f5;
+    text-shadow: 0 0 5px rgba(104, 182, 255, 0.5);
+}
+
+.dive-video span,
+.carousel span {
+    margin-top: 10px;
+}
+
+.carousel {
+    width: 100%;
+    text-align: center;
+    margin: 50px auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+    color: #63c0f5;
+    text-shadow: 0 0 5px rgba(104, 182, 255, 0.5);
+}
+
+.swiper {
+    width: 100%;
+    height: auto;
 }

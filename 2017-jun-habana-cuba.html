@@ -10,9 +10,13 @@
     <meta name="theme-color" content="#151515">
     <title>Mike's Top Dives - Cozumel, Mexico. Jan 2017</title>
 
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.css" />
+    <script src="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.js"></script>
+    <script defer src="./scripts/slider.js"></script>
+
 </head>
 
-<body data-new-gr-c-s-check-loaded="14.1086.0" data-gr-ext-installed="">
+<body>
 
     <header>
         <div class="container">
@@ -26,8 +30,21 @@
     <div class="container">
         <section id="main_content">
 
-            <iframe width="1280" height="720" src="https://www.youtube.com/embed/tS0ZnRS9Ml8" frameborder="0"
-                allowfullscreen></iframe>
+                <div class="dive-video">
+                    <iframe width="480" height="320" src="https://www.youtube.com/embed/tS0ZnRS9Ml8" frameborder="0"
+                        allowfullscreen></iframe>
+                    <span>Atlantic Nurse Shark</span>
+                    </div>
+                    
+                    <div class="carousel">
+                        <div class="swiper">
+                            <div id="swiper-wrapper" class="swiper-wrapper" data-dir="2017-habana" data-images="8"></div>
+                            <div class="swiper-pagination"></div>
+                            <div class="swiper-button-prev"></div>
+                            <div class="swiper-button-next"></div>
+                        </div>
+                        <span>Pics</span>
+                    </div>
 
         </section>
     </div>
