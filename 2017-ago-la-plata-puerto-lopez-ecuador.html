@@ -8,8 +8,11 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" href="./assets/style.css">
     <meta name="theme-color" content="#151515">
-    <title>Mike's Top Dives - Cozumel, Mexico. Jan 2017</title>
+    <title>Mike's Top Dives - "La Plata" Island, Puerto López, Ecuador. Ago 2017</title>
 
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.css" />
+    <script src="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.js"></script>
+    <script defer src="./scripts/slider.js"></script>
 </head>
 
 <body>
@@ -19,15 +22,43 @@
             <a class="a-title" href="index.html">
                 <h1>./ Home</h1>
             </a>
-            <h2>Cozumel, Mexico. Jan 2017</h2>
+            <h2>"La Plata" Island, Puerto López, Ecuador. Ago 2017</h2>
         </div>
     </header>
 
     <div class="container">
         <section id="main_content">
 
-            <iframe width="1280" height="720" src="https://www.youtube.com/embed/HiMuFXsXNXQ" frameborder="0"
-                allowfullscreen></iframe>
+            <div class="dive-video">
+                <iframe width="480" height="320" src="https://www.youtube.com/embed/cmvsqYVoka0" frameborder="0"
+                    allowfullscreen></iframe>
+                <span>Diving with Manta Rays</span>
+            </div>
+            
+            
+            <div class="dive-video">
+                <iframe width="480" height="320" src="https://www.youtube.com/embed/G9OVUBFACyQ" frameborder="0"
+                    allowfullscreen></iframe>
+                <span>Humpback Whales</span>
+            </div>
+            
+            
+            <div class="dive-video">
+                <iframe width="480" height="320" src="https://www.youtube.com/embed/xLbiFRBET3s" frameborder="0"
+                    allowfullscreen></iframe>
+                <span>La Plata Island</span>
+                </div>
+                
+                
+                <div class="carousel">
+                    <div class="swiper">
+                        <div id="swiper-wrapper" class="swiper-wrapper" data-dir="2018-la-plata" data-images="10"></div>
+                        <div class="swiper-pagination"></div>
+                        <div class="swiper-button-prev"></div>
+                        <div class="swiper-button-next"></div>
+                    </div>
+                    <span>Pics</span>
+                </div>
 
         </section>
     </div>
