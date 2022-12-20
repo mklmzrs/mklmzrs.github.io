@@ -10,6 +10,10 @@
     <meta name="theme-color" content="#151515">
     <title>Mike's Top Dives - "La Plata" Island, Puerto López, Ecuador. Ago 2018</title>
 
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.css" />
+    <script src="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.js"></script>
+    <script defer src="./scripts/slider.js"></script>
+
 </head>
 
 <body>
@@ -26,6 +30,26 @@
     <div class="container">
         <section id="main_content">
 
+            <div class="dive-video">
+                <iframe width="480" height="320" src="https://www.youtube.com/embed/zuVY4ROZGII" frameborder="0"
+                    allowfullscreen></iframe>
+                <span>Lonely Manta-Ray</span>
+            </div>
+            
+            <div class="dive-video">
+                <iframe width="480" height="320" src="https://www.youtube.com/embed/6W4V1SQCvXg" frameborder="0"
+                    allowfullscreen></iframe>
+                <span>Mobulidae School (Devil Ray) in the distance</span>
+            </div>
+            <div class="carousel">
+                <div class="swiper">
+                    <div id="swiper-wrapper" class="swiper-wrapper" data-dir="2018-la-plata" data-images="19"></div>
+                    <div class="swiper-pagination"></div>
+                    <div class="swiper-button-prev"></div>
+                    <div class="swiper-button-next"></div>
+                </div>
+                <span>Pics</span>
+            </div>
         </section>
     </div>
 </body>
