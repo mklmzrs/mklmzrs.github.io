@@ -10,6 +10,10 @@
     <meta name="theme-color" content="#151515">
     <title>Mike's Top Dives - Galapagos Islands, Ecuador. Dec 2018</title>
 
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.css" />
+    <script src="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.js"></script>
+    <script defer src="./scripts/slider.js"></script>
+
 </head>
 
 <body>
@@ -25,7 +29,39 @@
 
     <div class="container">
         <section id="main_content">
+            <div class="dive-video">
+                <iframe width="480" height="320" src="https://www.youtube.com/embed/vfs5scCYAtA" frameborder="0"
+                    allowfullscreen></iframe>
+                <span>Hammerhead Sharks School - Gordon Rocks</span>
+            </div>
+            
+            <div class="dive-video">
+                <iframe width="480" height="320" src="https://www.youtube.com/embed/rA3QAXcSdCg" frameborder="0"
+                    allowfullscreen></iframe>
+                <span>Eagle Rays and Golden Rays</span>
+            </div>
+            
+            <div class="dive-video">
+                <iframe width="480" height="320" src="https://www.youtube.com/embed/mqN7jhNVohg" frameborder="0"
+                    allowfullscreen></iframe>
+                <span>Seal</span>
+            </div>
 
+            <div class="dive-video">
+                <iframe width="480" height="320" src="https://www.youtube.com/embed/H7CscQt_Kf4" frameborder="0"
+                    allowfullscreen></iframe>
+                <span>Unidentified Camouflage Fish</span>
+            </div>
+            
+            <div class="carousel">
+                <div class="swiper">
+                    <div id="swiper-wrapper" class="swiper-wrapper" data-dir="2018-galapagos" data-images="17"></div>
+                    <div class="swiper-pagination"></div>
+                    <div class="swiper-button-prev"></div>
+                    <div class="swiper-button-next"></div>
+                </div>
+                <span>Pics</span>
+            </div>
         </section>
     </div>
 </body>
